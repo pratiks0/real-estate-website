@@ -7,17 +7,19 @@ import Hero from './section/Hero'
 import PopularAreas from './section/PopularAreas'
 import Services from './section/Services'
 import Properties from './section/Properties'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 const App = () => {
   return (
     <>
       <DarkModeProvider>
-        <Header/>
-        <Hero/>
-        <About/>
-        <PopularAreas/>
-        <Properties/>
+        <Header />
+        <Hero />
+        <About />
+        <PopularAreas />
+        <Properties />
         <Services/>
         <Clients/>
         <Contact/>
