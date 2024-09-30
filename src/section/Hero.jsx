@@ -35,7 +35,6 @@ const Hero = () => {
           <h1 className='text-black font-semibold dark:text-white'>Location</h1>
           <input type="text" placeholder="Enter Address, State, Pincode or city" className='bg-white p-2 w-full mt-2 border-b-[1px] border-[#c9c7c1]'/>
         </div>
-
       </div>
      </div>
     </>
