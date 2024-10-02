@@ -17,6 +17,7 @@ const Contact = () => {
   return (
     <div
       className={`${darkMode ? "dark bg-black" : "light bg-transparent"} pb-20`}
+      style={{ fontFamily: '"Raleway", sans-serif' }}
     >
       <section
         id="contact"
@@ -72,16 +73,16 @@ const Contact = () => {
             data-aos-delay="400"
             className="text-black font-semibold leading-10 dark:text-white"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit..
+            Get in touch with us today and our team will assist you
           </h1>
           <p
             data-aos="zoom-in"
             data-aos-delay="600"
             className="text-xl text-grat-600 dark:text-white"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
-            corporis reiciendis molestias est quis deserunt pariatur eveniet
-            libero? Qui!
+            Our experts and developers would love to contribute their expertise
+            and insights and help you today. Contact us to help you plan your
+            next transaction, either buying or selling a home.
           </p>
           <button className="bg-red-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black dark:hover:bg-red-700 cursor-pointer">
             CONTACT US

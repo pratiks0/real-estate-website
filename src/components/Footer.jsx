@@ -25,6 +25,7 @@ const Footer = () => {
         className={`${
           darkMode ? "dark bg-black" : "light bg-gray-800"
         } w-full m-auto lg:px-20 px-10 py-20 grid lg:grid-cols-3 grid-cols-1 justify-center items-start lg:gap-20 gap-10`}
+        style={{fontFamily: '"Raleway", sans-serif'}}
       >
         <div className="flex flex-col justify-center items-start gap-5">
           <h1 className="text-white text-2xl font-semi">About Us</h1>

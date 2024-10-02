@@ -17,7 +17,7 @@ const Hero = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
   return (
     <>
-      <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`}>
+      <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`} style={{fontFamily: '"Raleway", sans-serif'}}>
         <section
           id="hero"
           className="w-[95%] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
@@ -33,10 +33,7 @@ const Hero = () => {
             data-aos="zoom-in"
             className="text-white text-xl lg:pr-[500px] pr-0"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            nostrum sequi sunt assumenda explicabo dicta accusantium. Id nemo
-            quibusdam asperiores saepe. Sit ipsum non repellendus praesentium
-            eligendi reprehenderit dolores accusamus!
+            Through our proprietary platform, WpResidence is changing how agents and clients navigate the process of finding or selling a home.
           </p>
         </section>
       </div>

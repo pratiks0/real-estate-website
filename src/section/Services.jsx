@@ -19,6 +19,7 @@ const Services = () => {
   return (
     <div
       className={`${darkMode ? "dark bg-black" : "light bg-transparent"} pb-20`}
+      style={{fontFamily: '"Raleway", sans-serif'}}
     >
       <section
         id="services"

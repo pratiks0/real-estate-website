@@ -27,7 +27,7 @@ const Properties = () => {
 
   const { darkMode, toggleDarkMode } = useDarkMode();
   return (
-    <div className={`${darkMode ? "dark bg-black" : "light bg-transparent"}`}>
+    <div className={`${darkMode ? "dark bg-black" : "light bg-transparent"}`} style={{fontFamily: '"Raleway", sans-serif'}}>
       <section
         id="properties"
         className="lg:w-[90%] m-auto lg:px-20 px-6 py-20 w-full flex flex-col justify-center items-start gap-10"
