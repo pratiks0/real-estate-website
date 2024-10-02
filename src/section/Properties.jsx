@@ -87,8 +87,8 @@ const Properties = () => {
                 </div>
               </div>
 
-              <div className="px-6 py-3 flex flex-col justify-center items-start gap-2 w-full">
-                <h1 className="text-xl text-black font-semibold dark:text-white">{item.name}</h1>
+              <div className="px-6 py-3 flex flex-col justify-center items-start gap-2 w-full dark:bg-gray-800">
+                <h1 className="text-xl text-black font-semibold dark:text-white ">{item.name}</h1>
                 <h1 className="text-2xl text-red-600 font-bold dark:text-white">{item.price}</h1>
                 <p className="dark:text-white">{item.about}</p>
                 <div id="icons" className="flex justify-center items-center gap-2">
