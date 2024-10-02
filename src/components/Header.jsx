@@ -26,7 +26,7 @@ const Header = () => {
 
   const closeMenu = () => {
     setIsMenuOpen(false);
-  };
+  }:
 
   const navItems = [
     {
